@@ -19,6 +19,10 @@ section{
     padding: 50px 10px;
 }
 
+span{
+    color: rgb(26, 170, 192);
+}
+
 *::selection{
     color: burlywood;
     background: coral;
@@ -40,16 +44,13 @@ section{
 .home-img img{
     width: 100%;
 }
-.home-text span{
-    font-size: 1.8rem;  /*3.2  0.941  */
-    font-weight: 500; 
-}
 .home-text h1{
     font-size: 3.2rem;
 }
 .home-text h2{
-    font-size: 1.1rem;
-    font-weight: 400;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: rgb(17, 69, 77);
 }
 .home-text p{
     font-size: 0.941rem;
@@ -59,7 +60,7 @@ section{
 .social{
     display: flex;
     flex-direction: column;
-    padding-left: 3rem;
+    padding-left: 1rem;
 }
 .social a{
     margin-bottom: 1rem;
@@ -67,12 +68,50 @@ section{
     color: burlywood;
 }
 .social a:hover{
-    color: rgb(46, 38, 28);
+    color: rgb(17, 69, 77);
 }
 .btn{
     display: inline-block;
-    background: coral;
-    color: white;
+    background: rgb(0, 7, 8);
+    color: rgb(17, 69, 77);
     padding: 0.7rem 1.3rem;
     border-radius: 0.5rem;
+}
+
+/* about section */
+
+.heading{
+    text-align: center;
+}
+.heading h2{
+    font-size: 30px;
+}
+.about-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.about-img img{
+    width: 80%;
+    border-radius: 00.5rem;
+}
+.about-text span{
+    font-size: 0.941rem;
+    font-weight: 400;
+}
+.information{
+    margin: 1rem 0 1.4rem;
+}
+.information .info-box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.4rem;
+}
+.information .info-box i{
+    font-size: 22px;
+}
+.information .info-box h3{
+    font-weight: 400;
+    margin-left: 1rem;
 }
