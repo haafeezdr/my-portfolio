@@ -114,6 +114,7 @@ span{
 }
 .information .info-box i{
     font-size: 22px;
+    color:  rgb(17, 69, 77);
 }
 .information .info-box h3{
     font-weight: 400;
@@ -212,4 +213,87 @@ span{
 .services-box:hover{
     background:  white;
     color: rgb(3, 13, 15);
+}
+
+/* portfolio section */
+.portfolio-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.portfolio-img{
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+.portfolio-img img{
+    width: 100%;
+    display: block;
+}
+.portfolio-img img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+/* contact form */
+
+.contact-form{
+    display: grid;
+    place-items: center;
+    margin-top: 1rem;
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+}
+form input,
+form textarea{
+    padding: 15px;
+    border-radius: 0.5rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: rgb(17, 69, 77);
+    margin-bottom: 1rem;
+    color: white;
+}
+form textarea{
+    resize: none;
+    height: 200px;
+}
+.contact-button{
+    width: 160px;
+    cursor: pointer;
+    background: rgb(4, 27, 31);
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 35%;
+}
+.contact-button:hover{
+    background: rgb(17, 69, 77);
+}
+
+/* footer */
+.footer{
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    background: rgb(1, 16, 19);
+    color:rgb(17, 69, 77);
+}
+.footer h2{
+    font-size: 1.5rem;
+    margin-bottom: 1.6rem;
+}
+.footer-social a i{
+    color: rgb(17, 69, 77);
+    font-size: 25px;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 40px;
+    background-color: white;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
 }
