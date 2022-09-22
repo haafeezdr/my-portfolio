@@ -279,7 +279,7 @@ form textarea{
     display: grid;
     place-items: center;
     padding: 20px;
-    background: rgb(1, 16, 19);
+    background:  rgb(0, 10, 12);
     color:rgb(17, 69, 77);
 }
 .footer h2{
