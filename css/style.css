@@ -24,8 +24,8 @@ span{
 }
 
 *::selection{
-    color: burlywood;
-    background: coral;
+    color: rgb(3, 13, 15);
+    background: rgb(17, 69, 77);
 }
 
 .home{
@@ -65,10 +65,10 @@ span{
 .social a{
     margin-bottom: 1rem;
     font-size: 22px;
-    color: burlywood;
+    color: rgb(17, 69, 77);
 }
 .social a:hover{
-    color: rgb(17, 69, 77);
+    color: white;
 }
 .btn{
     display: inline-block;
@@ -76,6 +76,10 @@ span{
     color: rgb(17, 69, 77);
     padding: 0.7rem 1.3rem;
     border-radius: 0.5rem;
+}
+.btn:hover{
+    background: rgb(17, 69, 77);
+    color: rgb(0, 7, 8);;
 }
 
 /* about section */
@@ -202,7 +206,7 @@ span{
 }
 .services-box a{
     color: rgb(17, 69, 77);
-    font-size: medium;
+    font-size: 1rem;
     font-weight: 500;
 }
 .services-box:hover{
