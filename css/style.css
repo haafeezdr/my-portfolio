@@ -27,6 +27,46 @@ span{
     color: rgb(3, 13, 15);
     background: rgb(17, 69, 77);
 }
+/* navbar */
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(0, 7, 8);
+    padding: 13px 10%;
+    transition: 0.2s;
+    box-shadow: white, rgb(3, 13, 15);
+}
+
+.logo{
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    font-size: 1rem;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 500;
+}
+#menu-icon{
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+}
+#lightmode{
+    font-size: 22px;
+    cursor: pointer;
+}
 
 .home{
     position: relative;
@@ -296,4 +336,13 @@ form textarea{
     border-radius: 50px;
     width: 40px;
     height: 40px;
+}
+.copyright{
+    padding: 20px;
+    background: rgb(0, 7, 8);
+    text-align: center;
+    color: white;
+}
+.copyright a{
+    color: rgb(17, 69, 77);
 }
