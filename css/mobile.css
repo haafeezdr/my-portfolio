@@ -1,6 +1,10 @@
 h1{
     font-size: 2.4rem;
 }
+section{
+    padding: 20px 5px;
+}
+
 
 #menu-icon{
     display: initial;
@@ -11,7 +15,7 @@ h1{
 }
 .logo{
     align-content: center;
-    font-size: large;
+    font-size: 1rem;
 }
 header .navbar{
     position: absolute;
@@ -30,9 +34,14 @@ header .navbar{
     width: 50%;
     min-height: 50vh;
 }
+#lightmode{
+    position: absolute;
+    top: 1.4rem;
+    right: 2rem;
+}
 .social{
   display: block;
-  padding-top: 1rem;
+  padding-top: 2rem;
   justify-items: space-between;
 }
 .home-img{
@@ -57,9 +66,13 @@ header .navbar{
 }
 .about-container{
     grid-template-columns: 1fr;
+    margin: 1rem;
+}
+.heading h2{
+    font-size: large;
 }
 .about-img img{
-    width: 60%;
+    width: 50%;
     border-radius: 00.5rem;
 }
 .about-img span{
@@ -67,6 +80,9 @@ header .navbar{
 }
 .skills-container{
     grid-template-columns: 1fr;
+}
+.skills-img img{
+    width: 50%;
 }
 .portfolio-img img{
     padding-left: 2rem;
@@ -85,115 +101,83 @@ form textarea{
 }
 
 
-
-
-
-
-
-
-/* h1{
-    font-size: 2.4rem;
-}
-.logo{
-    font-size: large;
-}
-h2{
-    font-size: 1.2rem;
-}
-header{
-    padding: 11px 4%;
-}
-section{
-    padding: 10px ;
-}
-
-#menu-icon{
-    display: initial;
-    color: white;
-}
-header .navbar{
-    position: absolute;
-    top: -500px;
-    left: 0;
-    right: 0;
-    display: flex;
-    flex-direction: column;
-    background: rgb(0, 10, 12);
-    box-shadow: 0 4px 4px rgb(17 69 77 / 10%);
-    transition: 0.2s ease;
-    text-align: center;
-}
-.navbar.active{
-    top: 100%;
-}
-.navbar a{
-    padding: 1.5rem;
-    display: block;
-    background: rgb(0, 10, 12);
-}
-#lightmode{
-    position: absolute;
-    top: 1.4rem;
-    right: 2rem;
-}
-.home{
-    grid-template-columns: 0.5fr 3fr;
-}
-.home-img{
-  order: inherit;
-}
-.home-text{
-    grid-column: 1/3;
-    padding-left: 1.4rem;
-}
-.about-container{
-    grid-template-columns: 1fr;
-}
-.about-img{
-    display: flex;
-    justify-content: center;
-}
-.skills-container{
-    grid-template-columns: 1fr;
-}
-.skills-img img{
-    padding-left: 0;
-}
-.skills-img{
-    padding-top: 2rem;
-    display: flex;
-    justify-content: center;
-}
-.contact-form form{
-    width: 300px;
-}
-.contact-button{
-    margin-left: 25%;
-}
-@media (max-width: 340px){
-    h1{
-      font-size: 1.7rem;
+@media ( max-width: 400px){
+    .heading{
+        padding-right: 8rem;
     }
-    h2{
-      font-size: 1.1rem;
+    .info-box h3{
+        font-size: medium;
     }
-    .home-text span{
-      font-size: 1rem;
+    .skills-container{
+        gap: 1rem;
+        margin-top: 2rem;
+        padding-left: 2rem;
     }
-    .home-text h2{
-      font-size: 0.9rem;
-      font-weight: 500;
+    .skills-img img{
+        padding-left: 1rem;
+    
     }
-    .information .info-box span{
-      font-size: 1rem;
+    .bars-box{
+        padding: 0.5rem 0;
+        margin-bottom: 0.5rem;
     }
-    .portfolio-content{
-      grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    .bars-box span{
+        padding-right: 16rem;
+    }
+    .bars-box h3,
+    .bars-box span{
+        font-size: 0.8rem;
+        font-weight: 250;
+    }
+    .light-bar{
+        width: 50% ;
+        height: 0.5rem;
+        border-radius: 0.5rem;
+    }
+    .percent-bar {
+        height: 0.5rem;
+        border-radius: 0.5rem;
+    }
+    .html-bar{
+        width: 47% ;
+    }
+    .css-bar{
+        width: 40%;
+    }
+    .js-bar{
+        width: 42%;
+    }
+    .react-bar{
+        width: 35%;
+    } 
+    .services-content{
+        gap: 1rem;
+        margin-top: 1rem;
+        padding-right: 3rem;
+    }
+    .services-box{
+        padding: 10px;
+        width: 130px;
+        border-radius: 0.5rem;
     }
     .contact-form form{
-      width: 300px;
+        width: 400px;
+        padding-left: 2rem;
+    }
+    form input,
+    form textarea{
+        padding: 7px;
+        border-radius: 0.5rem;
+        width: 50%;
+        margin-bottom: 0.5rem;
+    }
+    form textarea{
+        resize: none;
+        height: 100px;
     }
     .contact-button{
-      margin-left: 25%;
+        margin: 1rem;
+        padding: 1rem;
     }
-  } */
+
+}
