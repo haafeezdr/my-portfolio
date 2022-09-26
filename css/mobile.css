@@ -3,6 +3,7 @@ h1{
 }
 section{
     padding: 20px 5px;
+    overflow: hidden;
 }
 
 
@@ -102,8 +103,26 @@ form textarea{
 
 
 @media ( max-width: 400px){
+    section{
+        overflow: hidden;
+    }
+    body{
+        overflow-x: hidden;
+    }
     .heading{
-        padding-right: 8rem;
+        padding-right: 3rem;
+    }
+    header{
+        width: 70%;
+        left: 0%;
+        padding: 7px 20%;
+    }
+    .navbar a{
+        padding: 5px 10px;
+    }
+    #menu-icon{
+        font-size: 15px;
+        padding-right: 1rem;
     }
     .info-box h3{
         font-size: medium;
@@ -178,6 +197,23 @@ form textarea{
     .contact-button{
         margin: 1rem;
         padding: 1rem;
+    }
+    .footer{
+        padding: 10px;
+    }
+    .footer h2{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    .footer-social a i{
+        font-size: 15px;
+        margin-left: 5px;
+        line-height: 20px;
+        width: 20px;
+        height: 20px;
+    }
+    .copyright{
+        padding: 10px;
     }
 
 }
