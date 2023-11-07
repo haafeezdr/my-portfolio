@@ -13,6 +13,7 @@
 body{
     background: rgb(3, 13, 15);
     color: white;
+    scroll-behavior: smooth;
 }
 
 body.active{
