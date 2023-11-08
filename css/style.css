@@ -301,46 +301,6 @@ header{
     transform: scale(1.1);
     transition: 1s;
 }
-/* contact form */
-
-.contact-form{
-    display: grid;
-    place-items: center;
-    margin-top: 1rem;
-}
-.contact-form form{
-    display: flex;
-    flex-direction: column;
-    width: 650px;
-}
-form input,
-form textarea{
-    padding: 15px;
-    border-radius: 0.5rem;
-    width: 100%;
-    border: none;
-    outline: none;
-    background: rgb(17, 69, 77);
-    margin-bottom: 1rem;
-    color: white;
-}
-form textarea{
-    resize: none;
-    height: 200px;
-}
-.contact-button{
-    width: 160px;
-    cursor: pointer;
-    background: rgb(4, 27, 31);
-    justify-content: center;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-left: 35%;
-}
-.contact-button:hover{
-    background: rgb(17, 69, 77);
-}
-
 /* footer */
 .footer{
     display: grid;
