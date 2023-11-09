@@ -23,6 +23,12 @@ body{
     scroll-behavior: smooth;
 }
 
+.light-mode {
+    background-color: #fff;
+    color: rgb(26, 170, 192);
+    transition: background-color 2s;
+}
+
 body.active{
      color: black;
      background: white;
@@ -78,10 +84,6 @@ header{
     cursor: pointer;
     z-index: 10001;
     display: none;
-}
-#lightmode{
-    font-size: 22px;
-    cursor: pointer;
 }
 
 .home{
@@ -288,7 +290,7 @@ header{
 }
 .portfolio-text p{
     padding-top: 1rem;
-    color: white;
+    color: rgb(16, 107, 121);
 }
 .portfolio-img{
     overflow: hidden;
@@ -334,3 +336,4 @@ header{
 .copyright a{
     color: rgb(17, 69, 77);
 }
+ 
