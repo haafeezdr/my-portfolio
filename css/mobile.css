@@ -101,6 +101,13 @@ form textarea{
     margin-left: 0%;
 }
 
+@media (max-width:600px){
+    .services-content{
+        display: block;
+    }
+
+}
+
 
 @media ( max-width: 400px){
     section{
