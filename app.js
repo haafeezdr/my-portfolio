@@ -31,3 +31,4 @@ document.addEventListener("DOMContentLoaded", function () {
         body.classList.toggle("dark-mode");
     });
 });
+

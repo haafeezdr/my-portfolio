@@ -6,11 +6,6 @@ section{
     overflow: hidden;
 }
 
-
-#menu-icon{
-    display: initial;
-    color: white;
-}
 .navbar.active{
     top: 100%;
 }
@@ -102,6 +97,9 @@ form textarea{
 }
 
 @media (max-width:600px){
+    header {
+        height: 20px;
+    }
     .services-content{
         display: block;
     }
@@ -127,7 +125,7 @@ form textarea{
     .navbar a{
         padding: 5px 10px;
     }
-    #menu-icon{
+    .menu-icon{
         font-size: 15px;
         padding-right: 1rem;
     }
